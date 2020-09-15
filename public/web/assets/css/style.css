@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700");
+
+body {
+  font-family: "poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    font-weight: 500;
+}
+
+.fa-phone {
+    color: #24bfd3;
+}
+.fa-envelope {
+    color: #24bfd3;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.bl-tb {
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important
+}
+
+.br-tb {
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+}
+
+.search-top::placeholder {
+    font-size: 11px;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #ced4da;
+    outline: 0;
+    box-shadow: none;
+}
+
+.br-10 {
+    border-radius: 10px;
+}
+
+.text-yellow {
+    color: #f9c412;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.bg-kiddies {
+    background-color: #d7222b;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #fff;
+    background-color: #fac213;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.flagger {
+    min-width: 3px !important;
+    left: 18px !important
+}
+
+.h-358 {
+    height: 358px;
+}
+
+.btn-danger {
+    background-color: #d7212b;
+}
+
+.text-danger {
+    color: #d7212b !important;
+}
+
+.bg-contact {
+    background-color: #f6f6f8;
+}
+
+.bg-gray {
+    background-color: #f0f0f0;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.br-25 {
+    border-radius: 25px;
+}
+
+.view-btn {
+    font-size: 10px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.h-190 {
+    height: 190px;
+}
+
+.h-179 {
+    height: 179px;
+}
+
+.border-line {
+    height: 3px;
+    background-color: #d7212c;
+}
+
+.text-blue {
+    color: #47c7d9;
+}
+
+.text-black {
+    color: #000 !important
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.text-gray {
+    color: #8d8d8d;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.bg-video {
+    background-color: #f9f9f9;
+}
+
+.h-150 {
+    height: 150px;
+}
+
+.bg-footer {
+    background-color: #e5e5e5;
+}
+
+.bg-bar {
+    background-color: #d7222b;
+}
+
+.fs-28 {
+    font-size: 28px;
+}
+
+.fs-13 {
+    font-size: 13px !important
+}
+
+.list-unstyled .text-gray {
+    font-size: 12px;
+}
+.list-unstyled .text-gray:hover {
+    color: #8d8d8d !important;
+}
+
+.fw-200 {
+    font-weight:  200;
+}
+
+.carousel-indicators li {
+    width: 18px;
+    height: 18px;
+    border-radius: 20px;
+}
+
+.fs .text-gray {
+    font-size: 14px;
+}
+
+.border-brand {
+    border: 3px solid #c2c2c2;
+}
+
+.br-brand {
+    border-right: 3px solid #c2c2c2;
+}
+
+.br-10 {
+    border-radius: 10px;
+}
+
+.h-150 {
+    height: 150px;
+}
+
+.whitesmoke {
+    background-color: #f2f2f2;
+}
+.whitesmoke:focus {
+    background-color: #f2f2f2 !important
+}
+
+.try .dropdownmenu {
+    position: absolute;
+    will-change: transform;
+    top: 0px;
+    left: 0px;
+    transform: translate3d(-37px, 182px, 0px);
+}
+
+
+.mob {
+    min-width: 5rem !important;
+    width: 10rem;
+    left: 60px !important;
+}
+
+/* 5th columns */
+
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 19.5%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+
+/* 5th columns-end */
+
+
+
+/* sidebar */
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+  /* sidebar-end */
